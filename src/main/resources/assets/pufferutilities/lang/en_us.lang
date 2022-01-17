@@ -1,13 +1,15 @@
+itemGroup.puffertab=Puffer Utilities
+
 tile.basalt.name=Basalt
 tile.calcite.name=Calcite
+tile.campfire_log.name=Campfire Log
+tile.chiseled_deepslate.name=Chiseled Deepslate
+tile.cobbled_deepslate.name=Cobbled Deepslate
+tile.cracked_deepslate_bricks.name=Cracked Deepslate Bricks
+tile.cracked_deepslate_tiles.name=Cracked Deepslate Tiles
+tile.deepslate.name=Deepslate
+tile.deepslate_bricks.name=Deepslate Bricks
 tile.moss.name=Moss
 tile.polished_basalt.name=Polished Basalt
 tile.smooth_basalt.name=Smooth Basalt
 tile.tuff.name=Tuff
-tile.deepslate.name=Deepslate
-tile.chiseled_deepslate.name=Chiseled Deepslate
-tile.cracked_deepslate_bricks.name=Cracked Deepslate Bricks
-tile.cracked_deepslate_tiles.name=Cracked Deepslate Tiles
-tile.deepslate_bricks.name=Deepslate Bricks
-tile.cobbled_deepslate.name=Cobbled Deepslate
-tile.campfire_log.name=Campfire Log

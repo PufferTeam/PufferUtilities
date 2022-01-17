@@ -24,7 +24,7 @@ public class CampfireLogBlock extends Block implements IHasModel {
         super(Material.WOOD);
         setRegistryName("campfire_log");
         setTranslationKey("campfire_log");
-        setCreativeTab(CreativeTabs.TRANSPORTATION);
+        setCreativeTab(PufferUtilities.pufferTab);
         setSoundType(SoundType.WOOD);
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

@@ -17,7 +17,7 @@ public class BlockBaseRotatedPillar extends BlockRotatedPillar implements IHasMo
         super(mat);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.TRANSPORTATION);
+        setCreativeTab(PufferUtilities.pufferTab);
         setDefaultState(this.blockState.getBaseState().withProperty(AXIS, EnumFacing.Axis.Y));
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
