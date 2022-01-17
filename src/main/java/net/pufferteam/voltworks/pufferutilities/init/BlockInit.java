@@ -6,6 +6,7 @@ import net.minecraft.block.material.Material;
 import net.pufferteam.voltworks.pufferutilities.objects.blocks.BlockBase;
 import net.pufferteam.voltworks.pufferutilities.objects.blocks.BlockBaseRotatedPillar;
 import net.pufferteam.voltworks.pufferutilities.objects.blocks.CampfireLogBlock;
+import net.pufferteam.voltworks.pufferutilities.objects.blocks.MossCarpetBlock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,5 +28,7 @@ public class BlockInit {
     public static final Block CRACKED_DEEPSLATE_BRICKS = new BlockBase("cracked_deepslate_bricks", Material.GROUND);
     public static final Block CRACKED_DEEPSLATE_TILES = new BlockBase("cracked_deepslate_tiles", Material.GROUND);
     public static final Block CAMPFIRE_LOG = new CampfireLogBlock();
+    public static final Block MOSS_CARPET = new MossCarpetBlock();
+    public static final Block AMETHYST = new BlockBase("amethyst", Material.ROCK);
 
 }

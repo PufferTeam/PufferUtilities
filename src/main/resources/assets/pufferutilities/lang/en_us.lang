@@ -1,5 +1,6 @@
 itemGroup.puffertab=Puffer Utilities
 
+tile.amethyst.name=Amethyst
 tile.basalt.name=Basalt
 tile.calcite.name=Calcite
 tile.campfire_log.name=Campfire Log
@@ -10,6 +11,7 @@ tile.cracked_deepslate_tiles.name=Cracked Deepslate Tiles
 tile.deepslate.name=Deepslate
 tile.deepslate_bricks.name=Deepslate Bricks
 tile.moss.name=Moss
+tile.moss_carpet.name=Moss Carpet
 tile.polished_basalt.name=Polished Basalt
 tile.smooth_basalt.name=Smooth Basalt
 tile.tuff.name=Tuff

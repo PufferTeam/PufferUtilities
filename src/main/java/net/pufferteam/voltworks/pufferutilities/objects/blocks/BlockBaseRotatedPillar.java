@@ -2,7 +2,6 @@ package net.pufferteam.voltworks.pufferutilities.objects.blocks;
 
 import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.EnumFacing;

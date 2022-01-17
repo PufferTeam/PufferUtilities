@@ -1,7 +1,10 @@
 {
+    "forge_marker": 1,
+    "defaults": {"model": "pufferutilities:campfire_log"},
     "variants": {
-        "normal": {
-            "model": "pufferutilities:campfire_log"
-        }
+        "facing=north": {"y": 0},
+        "facing=south" : {"y": 180},
+        "facing=west" : {"y": 270},
+        "facing=east" : {"y": 90}
     }
 }

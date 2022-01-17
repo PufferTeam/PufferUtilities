@@ -1,0 +1,7 @@
+{
+  "parent": "block/carpet",
+  "textures": {
+    "particle": "pufferutilities:blocks/moss",
+    "wool": "pufferutilities:blocks/moss"
+  }
+}
