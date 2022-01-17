@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "pufferutilities:blocks/basalt_top",
+        "side": "pufferutilities:blocks/basalt_side"
+    }
+}

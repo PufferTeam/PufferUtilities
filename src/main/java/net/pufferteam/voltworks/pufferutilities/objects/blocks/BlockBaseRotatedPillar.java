@@ -1,28 +1,24 @@
 package net.pufferteam.voltworks.pufferutilities.objects.blocks;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.EnumFacing;
 import net.pufferteam.voltworks.pufferutilities.PufferUtilities;
 import net.pufferteam.voltworks.pufferutilities.init.BlockInit;
 import net.pufferteam.voltworks.pufferutilities.init.ItemInit;
 import net.pufferteam.voltworks.pufferutilities.utils.IHasModel;
 
-public class BlockBase extends Block implements IHasModel {
+public class BlockBaseRotatedPillar extends BlockRotatedPillar implements IHasModel {
 
-    public BlockBase(String name, Material mat) {
-        this(name, mat, SoundType.STONE);
-    }
-
-    public BlockBase(String name, Material mat, SoundType sound) {
+    public BlockBaseRotatedPillar(String name, Material mat) {
         super(mat);
-        setSoundType(sound);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        setCreativeTab(CreativeTabs.TRANSPORTATION);
+        setDefaultState(this.blockState.getBaseState().withProperty(AXIS, EnumFacing.Axis.Y));
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }

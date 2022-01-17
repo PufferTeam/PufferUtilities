@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=y": {
+            "model": "pufferutilities:basalt"
+        },
+        "axis=z": {
+            "model": "pufferutilities:basalt",
+            "x": 90
+        },
+        "axis=x": {
+            "model": "pufferutilities:basalt",
+            "x": 90,
+            "y": 90
+        }
+    }
+}
